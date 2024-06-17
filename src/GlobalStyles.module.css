@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(213, 225, 239);
+	margin: 0;
+	min-width: 360px;
+	font-family: 'Outfit', sans-serif;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: 1.2;
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+ul {
+	list-style: none;
+}
+
+button {
+	background-color: unset;
+	border: none;
+}
